@@ -12,4 +12,5 @@
 @property (nonatomic, strong) NSMutableString *artistNameReadyForApi;
 @property (nonatomic, strong) NSArray* artistMixes;
 - (void)EighttracksMixSearch: (NSString *)artistString;
+-(void)showTrending;
 @end

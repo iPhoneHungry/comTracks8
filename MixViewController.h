@@ -7,12 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RequestToApi.h"
 
 @interface MixViewController : NSObject
+@property (weak) IBOutlet NSProgressIndicator *loadProgressImg;
 
- @property (strong) IBOutlet NSArrayController *mixArrayCntrllr;
-
+@property (strong) RequestToApi *mixApiRequest;
+@property (strong) IBOutlet NSArrayController *mixArrayCntrllr;
+@property (strong) IBOutlet NSSearchField *artistSearchBox;
 @property (strong) NSMutableArray *mixesArray;
 -(void)receivedMixData:(NSNotification *)mixDataNotify;
 
+-(IBAction)searchfieldDone:(id)sender;
 @end

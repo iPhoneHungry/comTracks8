@@ -1,0 +1,330 @@
+TcomTracks8
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Info.plist" comTracks8/comTracks8-Info.plist
+cProcessPCH "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth" comTracks8/comTracks8-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8" normal x86_64
+cCopyStringsFile "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/InfoPlist.strings" comTracks8/en.lproj/InfoPlist.strings
+cCpResource comTracks8/en.lproj/Credits.rtf Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib"
+cTouch "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000005143A0D000000000000000CC
+t1363386576
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050BCE3E70000000000023FF4
+t1354556391
+s147444
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000050BCE3E70000000000002470
+t1354556391
+s9328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000050BCE3E700000000000001E5
+t1354556391
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000050BCE3E7000000000000E8A8
+t1354556391
+s59560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c0000000050BCE3EB00000000000026BC
+t1354556395
+s9916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c0000000050BCE3EC00000000000808F8
+t1354556396
+s526584
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/comTracks8.LinkFileList
+c0000000052EE5B9900000000000003B2
+t1391352729
+s946
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Info.plist
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/MainMenu.nib
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m
+c0000000052EE582C00000000000007B4
+t1391351852
+s1972
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m
+c0000000052ED14A90000000000000128
+t1391269033
+s296
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib
+c0000000052EE5B99000000000002B4D6
+t1391352729
+s177366
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m
+c0000000052EE57B2000000000000020C
+t1391351730
+s524
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m
+c0000000052EE5B9900000000000006EE
+t1391352729
+s1774
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/comTracks8-Prefix.pch
+c0000000052E864FF0000000000000097
+t1390961919
+s151
+i<Cocoa/Cocoa.h>
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/en.lproj/Credits.rtf
+c0000000052E864FF00000000000001B4
+t1390961919
+s436
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/en.lproj/InfoPlist.strings
+c0000000052E864FF000000000000002D
+t1390961919
+s45
+
+N/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m
+c0000000052E864FF00000000000000F0
+t1390961919
+s240
+
+NcomTracks8/comTracks8-Info.plist
+c0000000052E864FF0000000000000498
+t1390961919
+s1176
+
+CBuild AST from "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m"
+r0
+
+CBuild AST from "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m"
+r0
+
+CBuild AST from "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m"
+r0
+
+CBuild AST from "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies49d79c19939eb841^3161e419939eb841^---0#1#0#--18"Check dependencies36"64A2EB79-E16F-41BC-9D6E-3FC3CA8C6A9A-
+
+CCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045535.425072
+e413045536.352994
+r1
+xCompileC
+xBuild/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m25066d1f939eb841^e9635a20939eb841^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m0000000000000000^4001"CompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o comTracks8/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -include "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.d" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/AppDelegate.m" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/AppDelegate.o"36"C0567C40-0E60-44A1-BDBA-2F10DE339AAC-
+
+CCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045536.556939
+e413045536.698573
+r1
+xCompileC
+xBuild/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation MixData
+o                ^
+o/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h:20:1: note: method definition for 'setImgUrl:' not found
+o-(void)setImgUrl:(NSString *)urlString;
+o^
+o/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h:21:1: note: method definition for 'setImgUrlDefault' not found
+o-(void)setImgUrlDefault;
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m3fc88e20939eb841^75e6b220939eb841^-669"/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m:11:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation MixData                ^/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h:20:1: note: method definition for 'setImgUrl:' not found-(void)setImgUrl:(NSString *)urlString;^/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h:21:1: note: method definition for 'setImgUrlDefault' not found-(void)setImgUrlDefault;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-413045536#18446744073709551615#0#2(2@44"Method definition for 'setImgUrl:' not found-413045536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@140"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h0000000000000000^19#0#19#0#330#0#14"Semantic Issue--2@50"Method definition for 'setImgUrlDefault' not found-413045536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@140"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/MixData.h0000000000000000^20#0#20#0#370#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@140"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m0000000000000000^10#16#10#16#161#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@140"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m0000000000000000^3977"CompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o comTracks8/MixData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -include "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.d" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MixData.m" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixData.o"36"37EE39BB-B492-42D5-ACE7-F7D0AD3985BD-
+
+CCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045536.354365
+e413045536.712618
+r1
+xCompileC
+xBuild/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation MixViewController
+o                ^
+o/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.h:18:1: note: method definition for 'searchfieldDone:' not found
+o-(IBAction)searchfieldDone:(id)sender;
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m4fe75a20939eb841^d76bb620939eb841^-505"/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m:16:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation MixViewController                ^/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.h:18:1: note: method definition for 'searchfieldDone:' not found-(IBAction)searchfieldDone:(id)sender;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-413045536#18446744073709551615#0#1(2@50"Method definition for 'searchfieldDone:' not found-413045536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@139"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/MixViewController.h0000000000000000^17#0#17#0#429#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@139"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/MixViewController.m0000000000000000^15#16#15#16#264#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@153"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m0000000000000000^4043"CompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o comTracks8/../MixViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -include "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.d" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/../MixViewController.m" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/MixViewController.o"36"E904A143-CA7E-49C1-B50B-D884F5A7926F-
+
+CCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045536.314191
+e413045536.555559
+r1
+xCompileC
+xBuild/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.mc6a35020939eb841^11388e20939eb841^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m0000000000000000^4007"CompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o comTracks8/RequestToApi.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -include "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.d" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/RequestToApi.m" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/RequestToApi.o"36"40292F0B-449B-40E3-A256-080577B039F0-
+
+CCompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045535.423617
+e413045536.312712
+r1
+xCompileC
+xBuild/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.mf2b06c1f939eb841^840c5020939eb841^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/main.m0000000000000000^3959"CompileC Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o comTracks8/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -include "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/main.m" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/main.o"36"677B045F-EADC-46E8-9FAC-3004018EACCE-
+
+CCompileXIB "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib"
+s413045538.394522
+e413045539.068687
+r1
+xCompileXIB
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compiling /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib361d6522939eb841^03951123939eb841^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib0000000000000000^755"CompileXIB comTracks8/MainMenu.xib    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/MainMenu.nib" "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"01B8D8BB-F0E0-46F0-8F0B-C7B3D0008E88-
+
+CCopyStringsFile "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/InfoPlist.strings" comTracks8/en.lproj/InfoPlist.strings
+s413045538.337484
+e413045538.393623
+r1
+xCopyStringsFile
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/InfoPlist.strings
+xcomTracks8/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy comTracks8/en.lproj/InfoPlist.strings2a8b5622939eb841^bdc46422939eb841^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/en.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/InfoPlist.strings comTracks8/en.lproj/InfoPlist.strings    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj" -- comTracks8/en.lproj/InfoPlist.strings36"5223D513-4CA5-46A4-B88F-1EC19E44D00B-
+
+CCpResource comTracks8/en.lproj/Credits.rtf Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf
+s413045538.337858
+e413045538.393142
+r1
+xCpResource
+xcomTracks8/en.lproj/Credits.rtf
+xBuild/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf14945622939eb841^33a66422939eb841^---0#0#0#-19%DVTDocumentLocation2@195"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^622"CpResource comTracks8/en.lproj/Credits.rtf Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj/Credits.rtf    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/en.lproj/Credits.rtf" "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Resources/en.lproj"36"E1EF671C-4C87-4CD2-99BC-684BC56DF68E-
+
+CLd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8" normal x86_64
+s413045536.719323
+e413045538.329523
+r1
+xLd
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Link /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks82046b820939eb841^185b5422939eb841^---0#0#0#--1208"Ld Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8 normal x86_64    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" -filelist "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/Objects-normal/x86_64/comTracks8.LinkFileList" -mmacosx-version-min=10.7 -fobjc-arc -fobjc-link-runtime -framework Quartz -framework WebKit -framework CoreAudio -framework AudioToolbox -framework Cocoa -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/MacOS/comTracks8"36"1AE11B67-6B19-45F9-BAAB-D9612B8DC328-
+
+CProcessInfoPlistFile "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Info.plist" comTracks8/comTracks8-Info.plist
+s413045529.887336
+e413045529.913850
+r1
+xProcessInfoPlistFile
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Info.plist
+xcomTracks8/comTracks8-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process comTracks8/comTracks8-Info.plist3542e319939eb841^d828071a939eb841^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/comTracks8-Info.plist0000000000000000^629"ProcessInfoPlistFile Build/Products/Debug/comTracks8.app/Contents/Info.plist comTracks8/comTracks8-Info.plist    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    builtin-infoPlistUtility comTracks8/comTracks8-Info.plist -genpkginfo "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app/Contents/Info.plist"36"EA438243-50C7-4D26-90B1-7E84518CDAC5-
+
+CProcessPCH "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth" comTracks8/comTracks8-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413045529.922232
+e413045535.415948
+r1
+xProcessPCH
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth
+xcomTracks8/comTracks8-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile comTracks8/comTracks8-Prefix.pcha54eec19939eb841^47c66a1f939eb841^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/contrasthall/Flatworld%20data%20parsing%20for%20IOS/flatworld%20parse/8tracksbyRezand/comTracks8/comTracks8/comTracks8-Prefix.pch0000000000000000^3873"ProcessPCH Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth comTracks8/comTracks8-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-generated-files.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-own-target-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-all-target-headers.hmap" -iquote "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/comTracks8-project-headers.hmap" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources/x86_64" "-I/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/comTracks8.build/Debug/comTracks8.build/DerivedSources" "-F/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug" --serialize-diagnostics "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.dia" -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/comTracks8/comTracks8-Prefix.pch" -o "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Intermediates/PrecompiledHeaders/comTracks8-Prefix-csbnoxvapxkqvodmokonjfaagsjj/comTracks8-Prefix.pch.d"36"8FA5489D-D01A-43C8-A128-144571CA5083-
+
+CProcessPCH "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/build/comTracks8/Index/PrecompiledHeaders/comTracks8-Prefix-ctrbwtlohfjdnmblgcpwijcbwkni_ast/comTracks8-Prefix.pch.pth" comTracks8/comTracks8-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app"
+s413045539.077119
+e413045539.231620
+r1
+xTouch
+x/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Touch /Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app3dd71323939eb841^a25f3b23939eb841^---0#0#0#--299"Touch Build/Products/Debug/comTracks8.app    cd "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8"    /usr/bin/touch -c "/Users/contrasthall/Flatworld data parsing for IOS/flatworld parse/8tracksbyRezand/comTracks8/Build/Products/Debug/comTracks8.app"36"83542D2B-3125-40A5-88A2-64F8EDEE3338-
+

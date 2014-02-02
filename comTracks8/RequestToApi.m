@@ -12,12 +12,14 @@
 @synthesize artistNameReadyForApi;
 @synthesize artistMixes;
 
+
+
 #define kBgQueue dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 - (void)EighttracksMixSearch:(NSString *)artistString{
-   
+    NSLog(@"new search");
     NSString *appKey = @"177657ad94e2ec945a0330e11d2383b44b1dbb99";
-    NSString *url              = [NSString stringWithFormat:@"http://8tracks.com/mixes.json?q=%@?api_key=%@", artistString,appKey];
+    NSString *url = [NSString stringWithFormat:@"http://8tracks.com/mixes.json?q=%@?api_key=%@", artistString,appKey];
     url = [url stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
     NSURL    *urlToRequest     =   [[NSURL alloc]initWithString:url];
     dispatch_async(kBgQueue, ^{
@@ -25,6 +27,7 @@
                         urlToRequest];
         [self performSelectorOnMainThread:@selector(eightTracksfetchedData:)
                                withObject:data waitUntilDone:YES]; });
+    
 }
 
 
@@ -47,7 +50,22 @@
     NSLog(@"artist :::: %@",[json objectForKey:@"name"]);
 }
 
+-(void)showTrending {
+    
+    
+    NSLog(@"loading trending mixes");
+    NSString *appKey = @"177657ad94e2ec945a0330e11d2383b44b1dbb99";
+    NSString *url = [NSString stringWithFormat:@"http://8tracks.com/mix_sets/all.json?include=mixes?api_key=%@",appKey];
+    url = [url stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+    NSURL    *urlToRequest     =   [[NSURL alloc]initWithString:url];
+    dispatch_async(kBgQueue, ^{
+        NSData* data = [NSData dataWithContentsOfURL:
+                        urlToRequest];
+        [self performSelectorOnMainThread:@selector(eightTracksfetchedData:)
+                               withObject:data waitUntilDone:YES]; });
+    
 
+}
 
 
 @end

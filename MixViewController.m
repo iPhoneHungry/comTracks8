@@ -8,7 +8,7 @@
 
 #import "MixViewController.h"
 #import "MixData.h"
-#import "RequestToApi.h"
+
 
 @interface MixViewController ()
 @end
@@ -16,19 +16,22 @@
 @implementation MixViewController
 @synthesize mixesArray = _mixesArray;
 @synthesize mixArrayCntrllr;
-
+@synthesize mixApiRequest;
+@synthesize artistSearchBox;
+@synthesize loadProgressImg;
 
 -(void)awakeFromNib {
      _mixesArray = [[NSMutableArray alloc] init];
     
-    RequestToApi *testRequest = [[RequestToApi alloc] init];
-    [testRequest EighttracksMixSearch:[NSString stringWithFormat:@"nin"]];
+   mixApiRequest = [[RequestToApi alloc] init];
+    [mixApiRequest showTrending];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(receivedMixData:)
                                                  name:@"Mix Data Recvd"
                                                object:nil];
     
+    [loadProgressImg startAnimation:nil];
    
 }
 
@@ -63,9 +66,25 @@
         NSLog(@"%d",x);
          x++;
     }
+    NSRange range = NSMakeRange(0, [[mixArrayCntrllr arrangedObjects] count]);
+    [mixArrayCntrllr removeObjectsAtArrangedObjectIndexes:[NSIndexSet indexSetWithIndexesInRange:range]];
     [mixArrayCntrllr addObjects:_mixesArray];
+    [loadProgressImg stopAnimation:nil];
+  
    // NSLog(@"array added to controller");
     
+}
+
+-(IBAction)searchfieldDone:(id)sender {
+    [self.mixesArray removeAllObjects];
+    if ([[artistSearchBox stringValue] isNotEqualTo:@""]) {
+       
+    [mixApiRequest EighttracksMixSearch:[artistSearchBox stringValue]];
+        
+        [loadProgressImg startAnimation:nil];
+    }
+    
+    NSLog(@"action sent");
 }
 
 @end
