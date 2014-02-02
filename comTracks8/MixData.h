@@ -10,12 +10,13 @@
 
 @interface MixData : NSObject
 
-
+@property (strong) NSString * mixID;
 @property (strong) NSString * tmpUrlString;
 @property NSURL *mixImgUrl;
 @property (strong) NSString *mixName;
 @property float mixRating;
 
+-(IBAction)playThisMix:(id)sender;
 
 -(void)setImgUrl:(NSString *)urlString;
 -(void)setImgUrlDefault;

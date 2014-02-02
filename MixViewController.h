@@ -16,6 +16,8 @@
 @property (strong) IBOutlet NSArrayController *mixArrayCntrllr;
 @property (strong) IBOutlet NSSearchField *artistSearchBox;
 @property (strong) NSMutableArray *mixesArray;
+
+
 -(void)receivedMixData:(NSNotification *)mixDataNotify;
 
 -(IBAction)searchfieldDone:(id)sender;

@@ -12,7 +12,7 @@
 @synthesize mixName = _mixName;
 @synthesize mixImgUrl;
 @synthesize tmpUrlString;
-
+@synthesize mixID;
 
 -(id) init  {
     self = [super init];
@@ -24,7 +24,13 @@
     return self;
 }
 
-
+-(IBAction)playThisMix:(id)sender{
+   
+    NSLog(@"play mix pressed");
+    NSDictionary * mixUrlDict = [NSDictionary dictionaryWithObject:mixID forKey:@"idToFetch"];
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center postNotificationName:@"fetchIDfromURL" object:self userInfo:mixUrlDict];
+}
 
 
 @end

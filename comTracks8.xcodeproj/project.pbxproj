@@ -20,6 +20,12 @@
 		DDFE8422189B2D53005CDCE9 /* MixData.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE8421189B2D53005CDCE9 /* MixData.m */; };
 		DDFE8424189B43B6005CDCE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8423189B43B6005CDCE9 /* MainMenu.xib */; };
 		DDFE8426189E1462005CDCE9 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFE8425189E1462005CDCE9 /* Quartz.framework */; };
+		DDFE8429189EA7FC005CDCE9 /* MixPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE8428189EA7FC005CDCE9 /* MixPlayerController.m */; };
+		DDFE842D189EA80F005CDCE9 /* MixStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE842C189EA80F005CDCE9 /* MixStreamer.m */; };
+		DDFE8430189EA83E005CDCE9 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFE842F189EA83E005CDCE9 /* playbutton.png */; };
+		DDFE8432189EA842005CDCE9 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8431189EA842005CDCE9 /* stopbutton.png */; };
+		DDFE8434189EA84D005CDCE9 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8433189EA84D005CDCE9 /* loadingbutton.png */; };
+		DDFE8436189EA852005CDCE9 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8435189EA852005CDCE9 /* pausebutton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,14 @@
 		DDFE8421189B2D53005CDCE9 /* MixData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixData.m; sourceTree = "<group>"; };
 		DDFE8423189B43B6005CDCE9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		DDFE8425189E1462005CDCE9 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		DDFE8428189EA7FC005CDCE9 /* MixPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixPlayerController.m; sourceTree = "<group>"; };
+		DDFE842A189EA803005CDCE9 /* MixPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixPlayerController.h; sourceTree = "<group>"; };
+		DDFE842B189EA808005CDCE9 /* MixStreamer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixStreamer.h; sourceTree = "<group>"; };
+		DDFE842C189EA80F005CDCE9 /* MixStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixStreamer.m; sourceTree = "<group>"; };
+		DDFE842F189EA83E005CDCE9 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		DDFE8431189EA842005CDCE9 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		DDFE8433189EA84D005CDCE9 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		DDFE8435189EA852005CDCE9 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +121,8 @@
 		DDFE83F518989C7F005CDCE9 /* comTracks8 */ = {
 			isa = PBXGroup;
 			children = (
+				DDFE842E189EA832005CDCE9 /* Resources */,
+				DDFE8427189EA7C1005CDCE9 /* Audio Streamer */,
 				DDFE841F189B2D23005CDCE9 /* dataMods */,
 				DDFE84141899F2E2005CDCE9 /* views */,
 				DDFE840C18989CBF005CDCE9 /* controller */,
@@ -155,6 +171,28 @@
 				DDFE8421189B2D53005CDCE9 /* MixData.m */,
 			);
 			name = dataMods;
+			sourceTree = "<group>";
+		};
+		DDFE8427189EA7C1005CDCE9 /* Audio Streamer */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE8428189EA7FC005CDCE9 /* MixPlayerController.m */,
+				DDFE842A189EA803005CDCE9 /* MixPlayerController.h */,
+				DDFE842B189EA808005CDCE9 /* MixStreamer.h */,
+				DDFE842C189EA80F005CDCE9 /* MixStreamer.m */,
+			);
+			name = "Audio Streamer";
+			sourceTree = "<group>";
+		};
+		DDFE842E189EA832005CDCE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE8435189EA852005CDCE9 /* pausebutton.png */,
+				DDFE8433189EA84D005CDCE9 /* loadingbutton.png */,
+				DDFE8431189EA842005CDCE9 /* stopbutton.png */,
+				DDFE842F189EA83E005CDCE9 /* playbutton.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +249,10 @@
 				DDFE83FA18989C7F005CDCE9 /* InfoPlist.strings in Resources */,
 				DDFE840018989C7F005CDCE9 /* Credits.rtf in Resources */,
 				DDFE8424189B43B6005CDCE9 /* MainMenu.xib in Resources */,
+				DDFE8430189EA83E005CDCE9 /* playbutton.png in Resources */,
+				DDFE8432189EA842005CDCE9 /* stopbutton.png in Resources */,
+				DDFE8434189EA84D005CDCE9 /* loadingbutton.png in Resources */,
+				DDFE8436189EA852005CDCE9 /* pausebutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +268,8 @@
 				DDFE840F18989F78005CDCE9 /* RequestToApi.m in Sources */,
 				DDFE841E189B2176005CDCE9 /* MixViewController.m in Sources */,
 				DDFE8422189B2D53005CDCE9 /* MixData.m in Sources */,
+				DDFE8429189EA7FC005CDCE9 /* MixPlayerController.m in Sources */,
+				DDFE842D189EA80F005CDCE9 /* MixStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

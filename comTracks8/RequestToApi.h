@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RequestToApi : NSObject
+@interface RequestToApi : NSObject {
+    NSString *appKey;
+}
 @property (nonatomic, strong) NSMutableString *artistNameReadyForApi;
 @property (nonatomic, strong) NSArray* artistMixes;
+@property (nonatomic, strong) NSArray* mixToPlayData;
 - (void)EighttracksMixSearch: (NSString *)artistString;
 -(void)showTrending;
+-(void)mixIdtoFetch:(NSNotification *)urlID;
 @end

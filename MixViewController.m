@@ -56,6 +56,8 @@
         MixData *mixObject = [[MixData alloc] init];
         mixObject.mixName = [objectDict objectForKey:@"name"];
         mixObject.mixImgUrl = [NSURL URLWithString:[[objectDict objectForKey:@"cover_urls"] objectForKey:@"sq100"]] ;
+        mixObject.mixID = [objectDict objectForKey:@"id"];
+        NSLog(@"%@",mixObject.mixID);
       
        // NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
        
