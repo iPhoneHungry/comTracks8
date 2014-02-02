@@ -54,7 +54,7 @@
     artistMixes = [json objectForKey:@"mixes"];
  //   NSDictionary *mixesParse = [NSDictionary dicti]
     NSLog(@"%ld",(unsigned long)artistMixes.count);
-    NSDictionary *mixDetails = [[NSDictionary alloc] init];
+    NSDictionary *mixDetails;
    mixDetails = [NSDictionary dictionaryWithObject:artistMixes forKey:@"mixArray"];
     
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];

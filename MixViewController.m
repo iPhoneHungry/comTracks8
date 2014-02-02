@@ -39,7 +39,7 @@
 -(void)receivedMixData:(NSNotification *)mixDataNotify{
     
     NSArray  *mixDataArray = [[mixDataNotify userInfo] objectForKey:@"mixArray"];
-    NSDictionary *mixesData = [[NSDictionary alloc] init];
+    NSDictionary *mixesData;
     
     mixesData = [mixDataNotify userInfo];
     NSLog(@"trtrtr   %@",mixesData);
@@ -50,7 +50,7 @@
        
     //NSLog(@"%ld",(unsigned long)mixDataArray.count);
         
-        NSDictionary  *objectDict = [[NSDictionary alloc] init];
+        NSDictionary  *objectDict;
         objectDict = object;
         
         MixData *mixObject = [[MixData alloc] init];

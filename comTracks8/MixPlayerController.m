@@ -83,10 +83,10 @@
     
 	if (streamer)
 	{
-		return;
+		[self destroyStreamer];
 	}
 
-	[self destroyStreamer];
+	
 	
 	NSString *escapedValue = mixAudioUrl;
     NSLog(@"play url is %@",escapedValue);
