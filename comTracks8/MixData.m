@@ -10,6 +10,8 @@
 
 @implementation MixData
 @synthesize mixName = _mixName;
+@synthesize mixImgUrl;
+@synthesize tmpUrlString;
 
 
 -(id) init  {
@@ -17,8 +19,12 @@
     if (self) {
        _mixName = @"Loading Mix";
         _mixRating = 4.0;
+       mixImgUrl = [NSURL URLWithString:@"http://upload.wikimedia.org/wikipedia/en/4/47/Tcpmp-betaplayer-01-100x100.png"];
     }
     return self;
 }
+
+
+
 
 @end

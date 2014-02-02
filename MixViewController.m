@@ -50,12 +50,17 @@
         NSDictionary  *objectDict = [[NSDictionary alloc] init];
         objectDict = object;
         
-    MixData *mixObject = [[MixData alloc] init];
+        MixData *mixObject = [[MixData alloc] init];
         mixObject.mixName = [objectDict objectForKey:@"name"];
+        mixObject.mixImgUrl = [NSURL URLWithString:[[objectDict objectForKey:@"cover_urls"] objectForKey:@"sq100"]] ;
+      
+       // NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+       
     //mixObject.mixRating = 3.0;
-       NSLog(@"%@",mixObject.mixName);
+     //  NSLog(@"%@",mixObject.mixName);
     
     [self.mixesArray addObject:mixObject];
+        NSLog(@"%d",x);
          x++;
     }
     [mixArrayCntrllr addObjects:_mixesArray];

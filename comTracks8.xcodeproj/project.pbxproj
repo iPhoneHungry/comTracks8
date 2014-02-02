@@ -19,6 +19,7 @@
 		DDFE841E189B2176005CDCE9 /* MixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE841D189B2176005CDCE9 /* MixViewController.m */; };
 		DDFE8422189B2D53005CDCE9 /* MixData.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE8421189B2D53005CDCE9 /* MixData.m */; };
 		DDFE8424189B43B6005CDCE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8423189B43B6005CDCE9 /* MainMenu.xib */; };
+		DDFE8426189E1462005CDCE9 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFE8425189E1462005CDCE9 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		DDFE8420189B2D53005CDCE9 /* MixData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixData.h; sourceTree = "<group>"; };
 		DDFE8421189B2D53005CDCE9 /* MixData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixData.m; sourceTree = "<group>"; };
 		DDFE8423189B43B6005CDCE9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DDFE8425189E1462005CDCE9 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFE8426189E1462005CDCE9 /* Quartz.framework in Frameworks */,
 				DDFE84191899F359005CDCE9 /* WebKit.framework in Frameworks */,
 				DDFE84131898A797005CDCE9 /* CoreAudio.framework in Frameworks */,
 				DDFE84111898A787005CDCE9 /* AudioToolbox.framework in Frameworks */,
@@ -64,6 +67,7 @@
 		DDFE83E318989C7E005CDCE9 = {
 			isa = PBXGroup;
 			children = (
+				DDFE8425189E1462005CDCE9 /* Quartz.framework */,
 				DDFE84181899F359005CDCE9 /* WebKit.framework */,
 				DDFE84121898A797005CDCE9 /* CoreAudio.framework */,
 				DDFE84101898A787005CDCE9 /* AudioToolbox.framework */,
@@ -276,7 +280,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -302,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
