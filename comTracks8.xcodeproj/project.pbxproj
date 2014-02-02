@@ -12,7 +12,13 @@
 		DDFE83FC18989C7F005CDCE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE83FB18989C7F005CDCE9 /* main.m */; };
 		DDFE840018989C7F005CDCE9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DDFE83FE18989C7F005CDCE9 /* Credits.rtf */; };
 		DDFE840318989C7F005CDCE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE840218989C7F005CDCE9 /* AppDelegate.m */; };
-		DDFE840618989C80005CDCE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE840418989C80005CDCE9 /* MainMenu.xib */; };
+		DDFE840F18989F78005CDCE9 /* RequestToApi.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE840E18989F78005CDCE9 /* RequestToApi.m */; };
+		DDFE84111898A787005CDCE9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFE84101898A787005CDCE9 /* AudioToolbox.framework */; };
+		DDFE84131898A797005CDCE9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFE84121898A797005CDCE9 /* CoreAudio.framework */; };
+		DDFE84191899F359005CDCE9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFE84181899F359005CDCE9 /* WebKit.framework */; };
+		DDFE841E189B2176005CDCE9 /* MixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE841D189B2176005CDCE9 /* MixViewController.m */; };
+		DDFE8422189B2D53005CDCE9 /* MixData.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE8421189B2D53005CDCE9 /* MixData.m */; };
+		DDFE8424189B43B6005CDCE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE8423189B43B6005CDCE9 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +34,16 @@
 		DDFE83FF18989C7F005CDCE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		DDFE840118989C7F005CDCE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDFE840218989C7F005CDCE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DDFE840518989C80005CDCE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DDFE840D18989F78005CDCE9 /* RequestToApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestToApi.h; sourceTree = "<group>"; };
+		DDFE840E18989F78005CDCE9 /* RequestToApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestToApi.m; sourceTree = "<group>"; };
+		DDFE84101898A787005CDCE9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDFE84121898A797005CDCE9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DDFE84181899F359005CDCE9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		DDFE841C189B2176005CDCE9 /* MixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixViewController.h; path = ../MixViewController.h; sourceTree = "<group>"; };
+		DDFE841D189B2176005CDCE9 /* MixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixViewController.m; path = ../MixViewController.m; sourceTree = "<group>"; };
+		DDFE8420189B2D53005CDCE9 /* MixData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixData.h; sourceTree = "<group>"; };
+		DDFE8421189B2D53005CDCE9 /* MixData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixData.m; sourceTree = "<group>"; };
+		DDFE8423189B43B6005CDCE9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFE84191899F359005CDCE9 /* WebKit.framework in Frameworks */,
+				DDFE84131898A797005CDCE9 /* CoreAudio.framework in Frameworks */,
+				DDFE84111898A787005CDCE9 /* AudioToolbox.framework in Frameworks */,
 				DDFE83F018989C7F005CDCE9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +64,9 @@
 		DDFE83E318989C7E005CDCE9 = {
 			isa = PBXGroup;
 			children = (
+				DDFE84181899F359005CDCE9 /* WebKit.framework */,
+				DDFE84121898A797005CDCE9 /* CoreAudio.framework */,
+				DDFE84101898A787005CDCE9 /* AudioToolbox.framework */,
 				DDFE83F518989C7F005CDCE9 /* comTracks8 */,
 				DDFE83EE18989C7F005CDCE9 /* Frameworks */,
 				DDFE83ED18989C7F005CDCE9 /* Products */,
@@ -82,9 +103,11 @@
 		DDFE83F518989C7F005CDCE9 /* comTracks8 */ = {
 			isa = PBXGroup;
 			children = (
+				DDFE841F189B2D23005CDCE9 /* dataMods */,
+				DDFE84141899F2E2005CDCE9 /* views */,
+				DDFE840C18989CBF005CDCE9 /* controller */,
 				DDFE840118989C7F005CDCE9 /* AppDelegate.h */,
 				DDFE840218989C7F005CDCE9 /* AppDelegate.m */,
-				DDFE840418989C80005CDCE9 /* MainMenu.xib */,
 				DDFE83F618989C7F005CDCE9 /* Supporting Files */,
 			);
 			path = comTracks8;
@@ -100,6 +123,34 @@
 				DDFE83FE18989C7F005CDCE9 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFE840C18989CBF005CDCE9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE840D18989F78005CDCE9 /* RequestToApi.h */,
+				DDFE840E18989F78005CDCE9 /* RequestToApi.m */,
+				DDFE8423189B43B6005CDCE9 /* MainMenu.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		DDFE84141899F2E2005CDCE9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE841C189B2176005CDCE9 /* MixViewController.h */,
+				DDFE841D189B2176005CDCE9 /* MixViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		DDFE841F189B2D23005CDCE9 /* dataMods */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE8420189B2D53005CDCE9 /* MixData.h */,
+				DDFE8421189B2D53005CDCE9 /* MixData.m */,
+			);
+			name = dataMods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +206,7 @@
 			files = (
 				DDFE83FA18989C7F005CDCE9 /* InfoPlist.strings in Resources */,
 				DDFE840018989C7F005CDCE9 /* Credits.rtf in Resources */,
-				DDFE840618989C80005CDCE9 /* MainMenu.xib in Resources */,
+				DDFE8424189B43B6005CDCE9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +219,9 @@
 			files = (
 				DDFE83FC18989C7F005CDCE9 /* main.m in Sources */,
 				DDFE840318989C7F005CDCE9 /* AppDelegate.m in Sources */,
+				DDFE840F18989F78005CDCE9 /* RequestToApi.m in Sources */,
+				DDFE841E189B2176005CDCE9 /* MixViewController.m in Sources */,
+				DDFE8422189B2D53005CDCE9 /* MixData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +242,6 @@
 				DDFE83FF18989C7F005CDCE9 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		DDFE840418989C80005CDCE9 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDFE840518989C80005CDCE9 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
